@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer base {
+    @font-face {
+        font-family: manrope-extrabold;
+        font-weight: bolder;
+        src: url('/fonts/Manrope-ExtraBold.ttf');
+    }
+
+    @font-face {
+        font-family: manrope-bold;
+        font-weight: bold;
+        src: url('/fonts/Manrope-Bold.ttf');
+    }
+
+    @font-face {
+        font-family: manrope-semibold;
+        font-weight: 600;
+        src: url('/fonts/Manrope-SemiBold.ttf');
+    }
+
+    @font-face {
+        font-family: manrope-medium;
+        font-weight: medium;
+        src: url('/fonts/Manrope-Medium.ttf');
+    }
+
+    @font-face {
+        font-family: manrope-regular;
+        font-weight: normal;
+        src: url('/fonts/Manrope-Regular.ttf');
+
+    }
+
+    @font-face {
+        font-family: manrope-light;
+        font-weight: 300;
+        src: url('/fonts/Manrope-Light.ttf');
+
+    }
+
+    @font-face {
+        font-family: manrope-extralight;
+        font-weight: lighter;
+        src: url('/fonts/Manrope-ExtraLight.ttf');
+
+    }
+
+}
+
+.custom-radial-gradient-text {
+    background: radial-gradient(circle, rgba(233, 170, 150, 1) 0%, rgba(193, 133, 162, 1) 18%, rgba(105, 98, 173, 1) 100%);
+    background-clip: text;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.custom-radial-gradient-text-2 {
+    background: radial-gradient(circle, rgba(233, 170, 150, 1) 0%, rgba(193, 133, 162, 1) 52%, rgba(105, 98, 173, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.custom-radial-gradient-text-3 {
+    background: linear-gradient(90deg, rgba(233, 170, 150, 1) 0%, rgba(193, 133, 162, 1) 10%, rgba(105, 98, 173, 1) 20%, #363636 50%, #363636 100%);
+    background-clip: text;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
