@@ -5,6 +5,7 @@ import NotFoundPage from './pages/error_page'
 import "./index.css";
 import AboutPage from './pages/about_page';
 import FeaturesPage from './pages/features_page';
+import ThankPage from './pages/thank_you_page';
 
 
 const router = createBrowserRouter([
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: '/showcase',
     element: <FeaturesPage />
+  },
+  {
+    path: '/download',
+    element: <ThankPage />
   }
 ])
 

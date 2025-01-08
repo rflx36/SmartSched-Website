@@ -7,6 +7,7 @@ export default function HeroSection() {
     const navigate = useNavigate();
 
     const OnActionDownload = () => {
+        
         navigate("/download");
     }
 
@@ -42,14 +43,14 @@ export default function HeroSection() {
                         </div>
                         <img className="self-end mr-[35px]" src="svgs/hero-path-2.svg" />
                         <h1 className="font-manrope-bold text-[50px] text-grey-750 w-[415px] h-20 text-center">
-                            Your Realtime
+                            Your Schedules
                         </h1>
                     </div>
                     <div className="w-max h-20  -translate-y-32
-                     flex self-center">
-                        <h1 className="ml-40 font-manrope-bold text-[50px] text-grey-750">
-
-                            <span className="text-[#C185A2]"> Schedules </span>
+                     flex self-end">
+                        <h1 className=" font-manrope-bold text-[50px] text-grey-750">
+                            &
+                            <span className="text-[#C185A2]"> Notifications </span>
                             on the Go.
                         </h1>
                         <img className=" ml-[11px]" src="svgs/hero-widget.svg" />
@@ -64,7 +65,8 @@ export default function HeroSection() {
             <div className="w-full flex flex-col items-center h-max mt-5 animate-[slidedown_0.5s_cubic-bezier(0.35,0.86,0.35,0.83)_0.1s_backwards]">
                 <div className="w-[570px] h-max">
                     <p className="font-manrope-semibold text-grey-500 text-wrap text-center">
-                        Stay organized with real-time access to your class and room schedules. Perfect for planning ahead!
+                        Check schedules anytime with a tap! Use handy widgets for instant access. Need a room last minute?
+                        View available rooms in the app!
                     </p>
                 </div>
                 <div className="w-60 h-14 rounded-full bg-grey-300 grid place-content-center mt-10">

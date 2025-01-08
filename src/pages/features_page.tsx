@@ -20,18 +20,18 @@ export default function FeaturesPage() {
                                 <img src="svgs/features-link.svg" className="ml-4" />
                             </div>
                             <p className="w-full h-[150px] font-manrope-semibold text-grey-750">
-                                
-Stay informed with your latest schedules displayed in real time! Access and view all your class schedules seamlessly. Keep your plans on track and enjoy peace of mind with your reliable schedule access!
+
+                                Stay informed with your latest schedules displayed in real time! Access and view all your class schedules seamlessly. Keep your plans on track and enjoy peace of mind with your reliable schedule access!
                             </p>
                         </div>
                         <div className="w-[350px] h-[230px] bg-grey-200 rounded-[20px] overflow-hidden grid place-content-center">
-                            {/* <img  src="empty.png" className="bg-center size-full" /> */}
+                            <img src="/images/feature-1.png" className="bg-center size-full" />
                         </div>
                     </div>
 
                     <div className="w-[900px] flex justify-between mt-16 animate-[slidedown_0.5s_cubic-bezier(0.35,0.86,0.35,0.83)_0.2s_backwards]">
                         <div className="w-[350px] h-[137px] bg-grey-200 rounded-[20px] overflow-hidden self-end grid place-content-center">
-                            {/* <img  src="empty.png" className="bg-center size-full" /> */}
+                            <img src="/images/feature-2.png" className="bg-center size-full" />
                         </div>
                         <div className="w-[482px] h-max flex flex-col justify-between ">
                             <div className="flex w-full h-max">
@@ -52,11 +52,11 @@ Stay informed with your latest schedules displayed in real time! Access and view
                                 <img src="svgs/features-widget.svg" className="ml-4" />
                             </div>
                             <p className="w-full h-[150px] font-manrope-semibold text-grey-750">
-                            Say goodbye to unused spaces and overlapping assignations. Make the most of every room, ensuring efficiency and full occupancy at all times.
+                                Say goodbye to unused spaces and overlapping assignations. Make the most of every room, ensuring efficiency and full occupancy at all times.
                             </p>
                         </div>
                         <div className="w-[350px] h-[230px] bg-grey-200 rounded-[20px] overflow-hidden grid place-content-center">
-                            {/* <img src="empty.png" className="bg-center size-full" /> */}
+                            <img src="/images/feature-3.png" className="bg-center size-full" />
                         </div>
                     </div>
                 </div>
